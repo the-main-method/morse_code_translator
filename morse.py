@@ -18,7 +18,7 @@ def to_text(morse):
 def to_morse(text):
     translation = ''
 
-    txt = text.upper()
+    text = text.upper()
     for x in text:
         translation += trns.get(x) + ' '
     return translation
